@@ -2,7 +2,15 @@ body {
     margin: 0px;
     display: flex;
     width: 100vw;
-    overflow-x: hidden
+    overflow-x: hidden;
+    background-color: #F8F7F7;
+}
+
+:root {
+    --off-white: #F6F2F2;
+    --light-grey: #ECECEC;
+    --grey: #717171;
+    --black: #242424
 }
 
 #promo-nav-background {
@@ -23,10 +31,16 @@ body {
 #nav-promo {
     display: flex;
     align-items: center;
+    color: var(--grey);
+    text-decoration: none;
 }
 
 #nav-promo p {
     margin-right: .5rem;
+}
+
+#nav-promo a {
+    color: var(--grey);
 }
 
 #nav-profile-links {
@@ -34,5 +48,10 @@ body {
 }
 
 #nav-profile-links a {
-    margin: 0px 5px 0px 5px
+    color: var(--black);
+}
+
+#nav-profile-links a {
+    margin: 0px 5px 0px 5px;
+    text-decoration: none
 }
