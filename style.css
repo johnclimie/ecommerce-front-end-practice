@@ -51,7 +51,17 @@ body {
     color: var(--black);
 }
 
+.link-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.link-container img {
+    max-width: 2rem;
+}
+
 #nav-profile-links a {
-    margin: 0px 5px 0px 5px;
+    margin-left: 3%;
+    margin-right: 3%;
     text-decoration: none
 }
