@@ -2,30 +2,37 @@ body {
     margin: 0px;
     display: flex;
     width: 100vw;
+    overflow-x: hidden
 }
 
-#promo-nav {
-    width: 100vw;
+#promo-nav-background {
+    background-color: #ECECEC;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    width: 100vw
+}
+
+#promo-nav-content {
+    width: 100%;
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
 #nav-promo {
     display: flex;
-    flex-direction: row;
     align-items: center;
 }
 
 #nav-promo p {
-    margin-right: 5px;
+    margin-right: .5rem;
 }
 
-#nav-account-links {
+#nav-profile-links {
     display: flex;
 }
 
-#nav-account-links a {
-    margin: 0px 5px 0 5px;
+#nav-profile-links a {
+    margin: 0px 5px 0px 5px
 }
