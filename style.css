@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+    display: flex;
+    width: 100vw;
+}
+
+#promo-nav {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav-promo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#nav-promo p {
+    margin-right: 5px;
+}
+
+#nav-account-links {
+    display: flex;
+}
+
+#nav-account-links a {
+    margin: 0px 5px 0 5px;
+}
