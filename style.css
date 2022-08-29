@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 :root {
     --off-white: #F6F2F2;
     --light-grey: #ECECEC;
@@ -86,4 +89,45 @@ body {
     max-width: 100rem;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+#logo-link {
+    font-family: 'Mulish', sans-serif;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+#logo-link a { 
+    text-decoration: none;
+    color: var(--black);
+}
+
+#selection-links {
+    display: flex;
+    flex-direction: row;
+}
+
+#selection-links a {
+    margin: 0rem 1rem 0rem 1rem;
+    text-decoration: none;
+    color: var(--black);
+    font-family: 'Montserrat', sans-serif;
+}
+
+#search-cart {
+    display: flex;
+    flex-direction: row;
+}
+
+#search {
+    font-family: 'Montserrat', sans-serif;
+    padding: .3rem;
+    max-height: 2rem;
+    margin-right: 1rem;
+    border: .1rem solid var(--black);
+}
+
+#cart {
+    max-width: 2rem;
 }
