@@ -179,7 +179,9 @@ body {
 
 #main-container { 
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin: 5rem 0rem 5rem 0rem;
     max-width: 100rem
 }
@@ -363,4 +365,10 @@ body {
 
 #care-list li {
     font-size: .8rem;
+}
+
+/* Styling for suggested products */
+
+#suggested-products {
+    display: flex;
 }
