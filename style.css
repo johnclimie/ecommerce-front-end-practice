@@ -196,19 +196,41 @@ body {
 
 .image-selection img {
     width: 100%;
+    margin-bottom: .8rem;
 }
 
 #product {
     display: flex;
     flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #image-container {
     max-width: 40rem;
+    margin: 0rem 2rem 0rem 2rem;
 }
 
 #image-container img {
     width: 100%;
+}
+
+#product-info {
+    display: flex;
+    flex-direction: column;
+    max-width: 30rem;
+    margin: 0rem 2rem 0rem 2rem;
+}
+
+#product-name {
+    font-size: 1.5rem;
+    font-weight: 200;
+    margin-top: 0px;
+    margin-bottom: 1rem;
+}
+
+#brand-link {
+    font-size: .8rem;
+    color: var(--grey)
 }
 
 #rating-container {
@@ -217,10 +239,27 @@ body {
 }
 
 #rating-container img {
-    max-width: 1rem;
+    max-width: .8rem;
+}
+
+#price {
+    font-size: 1.5rem;
+    font-weight: 200;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.product-divide {
+    background-color: var(--light-grey);
+    width: 100%
 }
 
 #color-selection {
+    display: flex;
+    flex-direction: column;
+}
+
+#colors {
     display: flex;
     flex-direction: row;
 }
@@ -229,6 +268,7 @@ body {
     width: 1rem;
     height: 1rem;
     border-radius: 50%;
+    margin-right: .3rem
 }
 
 #indigo {
@@ -248,6 +288,8 @@ body {
     grid-template-columns: repeat(5, 0fr);
     column-gap: .5rem;
     row-gap: .5rem;
+    margin-top: 0px;
+    margin-bottom: 1rem;
 }
 
 .size {
@@ -262,4 +304,63 @@ body {
 .sold {
     border: 1px solid #A5A5A5;
     color: #A5A5A5;
+}
+
+#size-guide {
+    font-size: .8rem;
+    color: var(--grey);
+}
+
+#qty-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+} 
+
+#qty-container label {
+    margin-bottom: .5rem;
+}
+
+#size-select {
+    max-width: 4rem;
+    font-size: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#cart-button {
+    border: none;
+    background-color: var(--black);
+    color: var(--off-white);
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    max-width: 75%;
+}
+
+#wish-list {
+    font-size: .8rem;
+    color: var(--grey);
+    margin-bottom: .5rem;
+}
+
+.text {
+    font-size: .8rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+#details {
+    font-size: 1rem;
+}
+
+#care-list {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#care-list li {
+    font-size: .8rem;
 }
