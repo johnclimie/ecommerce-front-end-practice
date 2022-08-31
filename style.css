@@ -11,6 +11,7 @@
 body {
     margin: 0px;
     display: flex;
+    flex-direction: column;
     width: 100vw;
     overflow-x: hidden;
     background-color: var(--off-white);
@@ -172,4 +173,37 @@ body {
 
 #left-link {
     margin-left: 0px;
+}
+
+/* Styling for Main content in page */
+
+#main-container { 
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0rem 5rem 0rem;
+    max-width: 100rem
+}
+
+#product-container {
+    display: flex;
+}
+
+.image-selection {
+    max-width: 7rem;
+    height: auto;
+}
+
+.image-selection img {
+    width: 100%;
+}
+
+#product {
+}
+
+#image-container {
+    max-width: 40rem;
+}
+
+#image-container img {
+    width: 100%;
 }
