@@ -12,6 +12,7 @@ body {
     margin: 0px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 100vw;
     overflow-x: hidden;
     background-color: var(--off-white);
@@ -78,6 +79,11 @@ body {
 }
 
 /* Styling for main navbar */
+
+main {
+    display: flex;
+    justify-content: center;
+}
 
 #main-nav {
     width: 100vw;
@@ -180,6 +186,8 @@ body {
 #main-container { 
     display: flex;
     flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
     justify-content: center;
     align-items: center;
     margin: 5rem 0rem 5rem 0rem;
@@ -371,4 +379,16 @@ body {
 
 #suggested-products {
     display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 3rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#suggested-container {
+
+    }
+
+#suggested-products h2 {
+    font-size: 1rem;
 }
