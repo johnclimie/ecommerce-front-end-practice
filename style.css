@@ -402,6 +402,50 @@ main {
     flex-direction: column;
 }
 
-.product img {
+/* Styling for review container */
 
+#reviews-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#review-summary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#stars-and-reviews {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    width: 49%;
+    background-color: var(--light-grey);
+}
+
+#star-reviews {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+#star-reviews img {
+    max-width: 1rem;
+}
+
+#recommendation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 49%;
+    background-color: var(--light-grey);
+}
+
+#recommendation img {
+    max-width: 3rem;
 }
