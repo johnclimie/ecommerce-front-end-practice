@@ -348,6 +348,7 @@ main {
     padding-top: 1rem;
     padding-bottom: 1rem;
     max-width: 75%;
+    cursor: pointer;
 }
 
 #wish-list {
@@ -479,4 +480,28 @@ main {
 
 .review-stars img {
     max-width: 1rem;
+}
+
+#review-button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#review-button button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 0px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-color: var(--black);
+    color: var(--black);
+}
+
+#review-button button:hover {
+    cursor: pointer;
+    background-color: var(--black);
+    color: var(--off-white);
 }
