@@ -451,3 +451,32 @@ main {
 #recommendation img {
     max-width: 1.5rem;
 }
+
+#reviews {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.review-container {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+
+.review-stars {
+    display: flex;
+    flex-direction: row;
+}
+
+.review-stars img {
+    max-width: 1rem;
+}
