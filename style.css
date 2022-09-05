@@ -260,8 +260,8 @@ main {
 }
 
 .product-divide {
-    background-color: var(--light-grey);
-    width: 100%
+    border-top: 2px dashed var(--light-grey);
+    width: 100%;
 }
 
 #color-selection {
