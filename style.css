@@ -511,3 +511,9 @@ main {
     background-color: var(--black);
     color: var(--off-white);
 }
+
+/* Footer styling */
+
+footer {
+    background-color: var(--grey);
+}
