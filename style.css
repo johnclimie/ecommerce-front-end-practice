@@ -517,3 +517,8 @@ main {
 footer {
     background-color: var(--grey);
 }
+
+#footer-links {
+    display: flex;
+    flex-direction: row;
+}
