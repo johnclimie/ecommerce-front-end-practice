@@ -122,7 +122,6 @@ main {
 
 #search {
     background-image: url('./svg/search-svgrepo-com.svg');
-    /* background-position: 5px px; */
     background-repeat: no-repeat;
     font-family: 'Montserrat', sans-serif;
     padding: .3rem;
@@ -186,8 +185,6 @@ main {
 #main-container { 
     display: flex;
     flex-direction: column;
-    /* justify-content: center;
-    align-items: center; */
     justify-content: center;
     align-items: center;
     margin: 5rem 0rem 5rem 0rem;
