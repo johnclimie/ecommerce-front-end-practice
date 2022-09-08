@@ -517,9 +517,9 @@ main {
 footer {
     display: flex;
     justify-content: center;
-    background-color: var(--grey);
+    background-color: var(--black);
     color: var(--off-white);
-    font-family: ;
+    font-family: 'Montserrat', sans-serif;;
 }
 
 #footer-container {
@@ -529,7 +529,25 @@ footer {
     max-width: 100rem;
 }
 
+#footer-container p a {
+    color: var(--off-white);
+}
+
+#footer-container p a:hover {
+    color: var(--grey);
+}
+
 #footer-links {
     display: flex;
     flex-direction: row;
+}
+
+#footer-links a {
+    color: var(--off-white);
+    text-decoration: none;
+    margin: 0rem 1rem 0rem 1rem;
+}
+
+#footer-links a:hover {
+    color: var(--grey)
 }
