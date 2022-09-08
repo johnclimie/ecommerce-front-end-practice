@@ -519,6 +519,7 @@ footer {
     justify-content: center;
     background-color: var(--grey);
     color: var(--off-white);
+    font-family: ;
 }
 
 #footer-container {
