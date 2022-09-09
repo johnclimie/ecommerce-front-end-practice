@@ -33,8 +33,9 @@ header {
 }
 
 #promo-nav-content {
-    max-width: 100rem;
-    width: 100%;
+    /* width: 100%; */
+    /* max-width: 100rem; */
+    width: 20rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
