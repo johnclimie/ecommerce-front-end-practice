@@ -20,6 +20,8 @@ body {
 
 /* Styling for promotional navbar */
 
+/* Some items stay within correct width, while others do not */
+
 header {
     display: flex;
     flex-direction: column;
