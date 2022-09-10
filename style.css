@@ -21,6 +21,7 @@ body {
 /* Styling for promotional navbar */
 
 /* Some items stay within correct width, while others do not */
+/* To fix, maybe readjust width properties or possibly flexbox properties */
 
 header {
     display: flex;
