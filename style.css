@@ -60,8 +60,8 @@ header {
 
 #nav-profile-links {
     display: flex; 
-    width: 20%;
-    justify-content: space-between;
+    /* width: 10%; */
+    /* justify-content: space-between; */
 }
 
 #nav-profile-links a {
