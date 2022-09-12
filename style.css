@@ -20,9 +20,6 @@ body {
 
 /* Styling for promotional navbar */
 
-/* Some items stay within correct width, while others do not */
-/* To fix, maybe readjust width properties or possibly flexbox properties */
-
 header {
     display: flex;
     flex-direction: column;
@@ -60,8 +57,6 @@ header {
 
 #nav-profile-links {
     display: flex; 
-    /* width: 10%; */
-    /* justify-content: space-between; */
 }
 
 #nav-profile-links a {
@@ -81,8 +76,6 @@ header {
 }
 
 #nav-profile-links a {
-    /* margin-left: 3%;
-    margin-right: 3%; */
     text-decoration: none
 }
 
