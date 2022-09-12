@@ -140,6 +140,8 @@ main {
 
 /* Styling for product navbar */
 
+/* Navbar runs out of width */
+
 #product-nav {
     width: 100vw;
     display: flex;
