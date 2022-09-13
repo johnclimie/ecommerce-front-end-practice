@@ -223,13 +223,17 @@ main {
 #image-container {
     display: flex;
     max-width: 40rem;
+    /* width: auto; */
     height: auto;
     margin: 0rem 2rem 0rem 2rem;
 }
 
 #image-container img {
-    display: flex;
-    max-width: 100%;
+    /* display: flex; */
+    /* max-width: 100%; */
+    /* width: auto; */
+    /* height: auto; */
+    width: 100%;
     height: auto;
 }
 
