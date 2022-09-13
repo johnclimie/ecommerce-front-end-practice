@@ -201,6 +201,7 @@ main {
 #product-container {
     display: flex;
     flex-direction: row;
+    max-width: 100%;
 }
 
 .image-selection {
@@ -220,12 +221,16 @@ main {
 }
 
 #image-container {
+    display: flex;
     max-width: 40rem;
+    height: auto;
     margin: 0rem 2rem 0rem 2rem;
 }
 
 #image-container img {
-    width: 100%;
+    display: flex;
+    max-width: 100%;
+    height: auto;
 }
 
 #product-info {
