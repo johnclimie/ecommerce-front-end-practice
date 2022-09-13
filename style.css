@@ -189,6 +189,8 @@ main {
 
 /* Styling for Main content in page */
 
+/* Size of image doesn't resize when page is resized */
+
 #main-container { 
     display: flex;
     flex-direction: column;
@@ -229,12 +231,11 @@ main {
 }
 
 #image-container img {
-    /* display: flex; */
-    /* max-width: 100%; */
-    /* width: auto; */
-    /* height: auto; */
-    width: 100%;
-    height: auto;
+    display: flex;
+    max-width: 100%;
+    /* width: auto; 
+    height: auto; */
+    
 }
 
 #product-info {
