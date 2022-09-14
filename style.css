@@ -191,13 +191,18 @@ main {
 
 /* Size of image doesn't resize when page is resized */
 
+main {
+    display: flex;
+}
+
 #main-container { 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 5rem 0rem 5rem 0rem;
-    max-width: 100rem
+    max-width: 100rem;
+    height: auto
 }
 
 #product-container {
@@ -232,7 +237,9 @@ main {
 
 #image-container img {
     display: flex;
-    max-width: 100%;
+    width: 100%;
+    max-width: 40rem;
+    height: auto;
     /* width: auto; 
     height: auto; */
     
