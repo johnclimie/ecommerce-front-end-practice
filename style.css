@@ -189,7 +189,7 @@ main {
 
 /* Styling for Main content in page */
 
-/* Size of image doesn't resize when page is resized */
+/* Size of image doesn't resize when page is resized, along with th enetire product container. It extends outside of the viewport */
 
 main {
     display: flex;
