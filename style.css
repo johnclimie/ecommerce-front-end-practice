@@ -201,7 +201,7 @@ main {
     justify-content: center;
     align-items: center;
     margin: 5rem 0rem 5rem 0rem;
-    max-width: 100rem;
+    /* max-width: 100rem; */
     height: auto
 }
 
