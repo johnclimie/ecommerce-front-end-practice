@@ -231,16 +231,18 @@ main {
 #image-container {
     display: flex;
     max-width: 40rem;
-    /* width: auto; */
     height: auto;
+    /* width: auto; */
+    /* height: auto; */
     margin: 0rem 2rem 0rem 2rem;
 }
 
 #image-container img {
-    display: flex;
+    /* display: flex; */
     width: 100%;
-    max-width: 40rem;
     height: auto;
+    /* max-width: 40rem; */
+    /* height: auto; */
     /* width: auto; 
     height: auto; */
     
