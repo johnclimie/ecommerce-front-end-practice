@@ -193,6 +193,7 @@ main {
 
 main {
     display: flex;
+    /* max-width: 100rem; */
 }
 
 #main-container { 
