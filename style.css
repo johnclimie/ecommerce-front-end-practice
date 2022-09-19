@@ -228,6 +228,8 @@ main {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* Image doesn't resize correctly when page is resized. the height stays the same while the width is adjusted */
+
 #image-container {
     display: flex;
     max-width: 40rem;
