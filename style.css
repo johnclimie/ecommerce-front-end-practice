@@ -237,17 +237,13 @@ main {
 /* Image doesn't resize correctly when page is resized. the height stays the same while the width is adjusted */
 
 #image-container {
-    /* display: flex; */
     max-width: 40rem;
-    /* height: 100%; */
-    /* height: auto; */
     margin: 0rem 2rem 0rem 2rem;
 }
 
 #image-container img {
     width: 100%;
     height: auto;
-    /* object-fit: cover; */
 }
 
 #product-img {
