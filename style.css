@@ -228,11 +228,6 @@ main {
     font-family: 'Montserrat', sans-serif;
 }
 
-#length-test {
-    width: 100%;
-    height: 80vh;
-    background-color: pink;
-}
 
 /* Image doesn't resize correctly when page is resized. the height stays the same while the width is adjusted */
 
