@@ -249,7 +249,10 @@ main {
     height: auto;
 }
 
-
+#product-img {
+    max-width: 40rem;
+    height: auto;
+}
 
 #product-info {
     display: flex;
