@@ -209,6 +209,10 @@ main {
     max-width: 100%;
 }
 
+#images {
+    display: flex;
+}
+
 .image-selection {
     max-width: 7rem;
     height: auto;
