@@ -189,11 +189,8 @@ main {
 
 /* Styling for Main content in page */
 
-/* Size of image doesn't resize when page is resized, along with th enetire product container. It extends outside of the viewport */
-
 main {
     display: flex;
-    /* max-width: 100rem; */
 }
 
 #main-container { 
@@ -228,8 +225,6 @@ main {
     font-family: 'Montserrat', sans-serif;
 }
 
-
-/* Image doesn't resize correctly when page is resized. the height stays the same while the width is adjusted */
 
 #image-container {
     max-width: 40rem;
