@@ -422,6 +422,14 @@ main {
     flex-direction: column;
 }
 
+.suggested-product-img {
+    width: 100%;
+}
+
+.suggested-product-img img {
+    width: 100%;
+}
+
 /* Styling for review container */
 
 #reviews-container {
