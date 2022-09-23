@@ -582,3 +582,14 @@ footer {
     color: var(--grey)
 }
 
+/* Media queries for 800px */
+
+@media screen and (max-width: 800px) {
+    #product-container {
+        flex-direction: column;
+    }
+
+    #main-container {
+        margin: 0px;
+    }
+}
