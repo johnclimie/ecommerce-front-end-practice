@@ -597,8 +597,6 @@ footer {
         margin: 0px;
     }
 
-    /* TODO: make width of product take up entire width of page */
-
     #product {
         justify-content: center;
         padding-left: 5%;
@@ -607,5 +605,6 @@ footer {
     #product-info {
         max-width: 80%;
     }
-
 }
+
+/* TODO: Change styling for product image selection for mobile so it doesn't scale */
