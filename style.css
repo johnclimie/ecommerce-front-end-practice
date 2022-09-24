@@ -601,9 +601,11 @@ footer {
 
     #product {
         justify-content: center;
+        padding: 5%;
     }
 
     #product-info {
         max-width: 80%;
     }
+
 }
