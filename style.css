@@ -600,6 +600,6 @@ footer {
     /* TODO: make width of product take up entire width of page */
 
     #product-info {
-        background-color: pink;
+        max-width: 100%;
     }
 }
