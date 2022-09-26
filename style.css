@@ -99,6 +99,7 @@ main {
 
 #main-nav-content {
     width: 100%;
+    padding: 0% 1%;
     max-width: 100rem;
     display: flex;
     justify-content: space-between;
