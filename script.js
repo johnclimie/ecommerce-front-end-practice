@@ -7,7 +7,7 @@ let i;
 
 function unselectAll() {
     for (i = 0; i < colors.length; i++) {
-        colors[i].style.backgroundColor = "";
+        colors[i].style.border = "";
     }
 }
 
@@ -15,6 +15,6 @@ function unselectAll() {
 colors.forEach(color => {
     color.addEventListener('click', function() {
         unselectAll();
-        this.style.backgroundColor = "black";
+        this.style.border = "solid black 1px";
     });
 });
