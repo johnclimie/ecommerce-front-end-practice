@@ -1,5 +1,8 @@
 let colors = document.querySelectorAll('.color');
 
+
+console.log(colors);
+
 let i;
 
 function unselectAll() {
@@ -7,3 +10,11 @@ function unselectAll() {
         colors[i].style.backgroundColor = "";
     }
 }
+
+
+colors.forEach(color => {
+    color.addEventListener('click', function() {
+        unselectAll();
+        this.style.backgroundColor = "black";
+    });
+});
