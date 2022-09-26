@@ -8,6 +8,10 @@
     --black: #242424
 }
 
+html {
+    padding-right: 100px;
+}
+
 body {
     margin: 0px;
     display: flex;
