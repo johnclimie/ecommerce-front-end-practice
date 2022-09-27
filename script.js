@@ -1,5 +1,6 @@
-// Create variable for all elements with color class
+// Create variables for all elements with color and image-selection class
 let colors = document.querySelectorAll('.color');
+let images = document.querySelectorAll('.image-selection');
 
 // Function to unselect the elements when an element is clicked
 function unselectAll(cls) {
@@ -15,3 +16,11 @@ colors.forEach(color => {
         this.style.border = "solid black 1px";
     });
 });
+
+images.forEach(image => {
+    image.addEventListener('click', function() {
+        unselectAll(images);
+        this.style.border = 'solid black 1px';
+    })
+})
+
