@@ -29,7 +29,7 @@ images.forEach(image => {
 // Adds an event listener for avalible sizes
 sizes.forEach(size => {
     size.addEventListener('click', function() {
-        unselectAll(size);
-        this.style.border = 'solid black 3px';
+        unselectAll(sizes);
+        this.style.border = 'solid black 2px';
     })
 })
