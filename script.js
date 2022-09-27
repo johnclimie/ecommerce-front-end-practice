@@ -2,6 +2,7 @@
 let colors = document.querySelectorAll('.color');
 let images = document.querySelectorAll('.selected-img');
 let sizes = document.querySelectorAll('.size');
+let productImg = document.querySelectorAll('#product-img');
 
 // Function to unselect the elements when an element is clicked
 function unselectAll(cls) {
@@ -23,6 +24,8 @@ images.forEach(image => {
     image.addEventListener('click', function() {
         unselectAll(images);
         this.style.border = 'solid black 1px';
+
+        console.log(image.dataset.img);
     })
 })
 
