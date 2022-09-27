@@ -223,6 +223,7 @@ main {
 .selected-img {
     width: 100%;
     border: 1px solid transparent;
+    cursor: pointer;
 }
 
 #product {
