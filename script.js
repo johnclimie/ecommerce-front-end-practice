@@ -8,6 +8,8 @@ let productImg = document.querySelectorAll('#product-img');
 function unselectAll(cls) {
     for (let i = 0; i < cls.length; i++) {
         cls[i].style.border = "";
+        cls[i].style.background = "";
+        cls[i].style.color = "";
     }
 }
 
@@ -33,6 +35,8 @@ images.forEach(image => {
 sizes.forEach(size => {
     size.addEventListener('click', function() {
         unselectAll(sizes);
-        this.style.border = 'solid black 2px';
+        this.style.border = 'solid black 1px';
+        this.style.background = 'var(--black)';
+        this.style.color = 'var(--off-white)';
     })
 })
