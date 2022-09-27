@@ -300,6 +300,7 @@ main {
     width: 1rem;
     height: 1rem;
     border-radius: 50%;
+    border: 1px solid transparent;
     margin-right: .3rem
 }
 
