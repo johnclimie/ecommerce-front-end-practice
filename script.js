@@ -25,9 +25,7 @@ images.forEach(image => {
         unselectAll(images);
         this.style.border = 'solid black 1px';
 
-        console.log(image.dataset.img);
-
-        image.src = image.dataset.img;
+        productImg[0].src = this.dataset.img;
     })
 })
 
