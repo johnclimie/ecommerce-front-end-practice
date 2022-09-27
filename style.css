@@ -296,6 +296,7 @@ main {
 #colors {
     display: flex;
     flex-direction: row;
+    cursor: pointer;
 }
 
 .color {
