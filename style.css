@@ -217,11 +217,12 @@ main {
 .image-selection {
     max-width: 7rem;
     height: auto;
+    margin-bottom: 1%;
 }
 
-.image-selection img {
+.selected-img {
     width: 100%;
-    margin-bottom: 1%;
+    /* margin-bottom: 1%; */
 }
 
 #product {

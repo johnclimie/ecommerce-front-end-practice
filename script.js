@@ -1,6 +1,6 @@
 // Create variables for all elements with color and image-selection class
 let colors = document.querySelectorAll('.color');
-let images = document.querySelectorAll('.image-selection');
+let images = document.querySelectorAll('.selected-img');
 
 // Function to unselect the elements when an element is clicked
 function unselectAll(cls) {
