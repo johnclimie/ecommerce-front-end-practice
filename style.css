@@ -624,14 +624,9 @@ footer {
         font-size: .7rem;
     }
 
-    #search-cart {
-        margin-right: 0px;
-        padding: 0px;
-    }
-
     #search {
         max-height: .8rem;
-        max-width: 40%;
+        max-width: 60%;
     }
 
     #cart {
