@@ -595,6 +595,10 @@ footer {
 /* Media queries for 800px */
 
 @media screen and (max-width: 800px) {
+    #product-nav {
+        display: none;
+    }
+    
     #product-container {
         flex-direction: column;
     }
