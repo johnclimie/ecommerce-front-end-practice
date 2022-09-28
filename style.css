@@ -55,6 +55,10 @@ header {
     color: var(--grey);
 }
 
+#hamburger-btn {
+    display: none;
+}
+
 #nav-profile-links {
     display: flex; 
 }
@@ -595,8 +599,28 @@ footer {
 /* Media queries for 800px */
 
 @media screen and (max-width: 800px) {
+    #nav-promo {    
+        display: none;
+    }
+
+    #hamburger-btn {
+        max-width: 2rem;;
+    }
+
+    .profile-link-container {
+        font-size: .8rem;
+    }
+
+    .profile-link-container img {
+        max-width: .8rem;
+    }
+
     #product-nav {
         display: none;
+    }
+
+    #logo-link {
+        font-size: .7rem;
     }
     
     #product-container {
