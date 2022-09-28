@@ -604,7 +604,8 @@ footer {
     }
 
     #hamburger-btn {
-        max-width: 2rem;;
+        max-width: 2rem;
+        display: block;
     }
 
     .profile-link-container {
@@ -621,6 +622,20 @@ footer {
 
     #logo-link {
         font-size: .7rem;
+    }
+
+    #search-cart {
+        margin-right: 0px;
+        padding: 0px;
+    }
+
+    #search {
+        max-height: .8rem;
+        max-width: 40%;
+    }
+
+    #cart {
+        max-width: 1.2rem;
     }
     
     #product-container {
