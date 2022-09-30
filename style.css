@@ -616,7 +616,8 @@ footer {
         display: block;
         position: relative;
         z-index: 1;
-        left: 1rem;
+        left: .6rem;
+        top: .25rem;
 
         -webkit-user-selecet: none;
         user-select: none;
