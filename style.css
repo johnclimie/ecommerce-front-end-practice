@@ -760,6 +760,10 @@ footer {
     #product-info {
         max-width: 80%;
     }
+
+    .text {
+        font-size: .6rem;
+    }
 }
 
 /* TODO:
