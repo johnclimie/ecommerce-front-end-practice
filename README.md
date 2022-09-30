@@ -1,6 +1,7 @@
 # E-commerce Front-End Static Webpage
 
 ## Description
+![](https://img.shields.io/bower/l/mi)
 
 This project is a static webpage of a font-end e-commerce website. This page is interactive, as you can select the images, sizes and color options.
 This page is also mobile responsive, with just one singular media query. 
