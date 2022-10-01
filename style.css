@@ -607,11 +607,6 @@ footer {
         display: none;
     }
 
-    #hamburger-btn {
-        max-width: 2rem;
-        display: block;
-    }
-
     #hamburger-menu {
         display: block;
         position: relative;
@@ -765,7 +760,3 @@ footer {
         font-size: .6rem;
     }
 }
-
-/* TODO:
-    Create sidebar menu for mobile, which will include a dropdown menu for the user profile links
-*/
