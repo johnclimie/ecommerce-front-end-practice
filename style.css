@@ -234,6 +234,8 @@ main {
     cursor: pointer;
 }
 
+/* Styling for product */
+
 #product {
     display: flex;
     flex-direction: row;
